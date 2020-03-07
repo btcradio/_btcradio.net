@@ -1,0 +1,5 @@
+#brew install youtube-dl ffmpeg
+#Example usage for facebook
+#youtube-dl --extract-audio --audio-format mp3 https://www.facebook.com/yaliberty/videos/543756416260536/
+!README.md
+*.mp3
