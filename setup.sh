@@ -9,6 +9,7 @@ setup() {
         brew upgrade
 
         #install brew libs
+        brew install id3v2
         brew cask install docker
         brew link --overwrite docker
         ls -l /usr/local/bin/docker*

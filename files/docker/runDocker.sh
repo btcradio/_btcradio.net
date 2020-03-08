@@ -11,10 +11,10 @@ runDocker() {
         #install brew libs
         brew install cask docker
 
-        docker build -t icecast:1.0 .
-        docker run -d -p 8000:8000 -t icecast:1.0
+        docker build -t icecast .
+        docker run -i -d -p 8000:8000 -t icecast
 
-
+        open http://localhost:8000
 
     else
         #example - execute remote script with perl

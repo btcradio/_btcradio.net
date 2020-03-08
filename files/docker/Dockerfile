@@ -5,7 +5,7 @@ FROM alpine:latest
 LABEL maintainer "admin@btcRadio.net"
 
 RUN addgroup -S icecast && \
-    adduser -S icecast
+    adduser  -S icecast
 
 RUN apk add --update \
         git \
@@ -20,4 +20,5 @@ RUN chmod +x /entrypoint.sh
 EXPOSE 8000
 VOLUME ["/var/log/icecast"]
 ENTRYPOINT ["/entrypoint.sh"]
+
 CMD icecast -c /etc/icecast.xml
