@@ -1,5 +1,8 @@
+# Usage
+# docker build -t icecast:1.0.0 .
+
 FROM alpine:latest
-LABEL maintainer "infiniteproject@gmail.com"
+LABEL maintainer "admin@btcRadio.net"
 
 RUN addgroup -S icecast && \
     adduser -S icecast
