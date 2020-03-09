@@ -9,7 +9,7 @@ rm -f *.mp3
 
 COUNT=1
 
-for (( i=1; i<i=1000; ++i)); do
+for (( i=1; i<i=100; ++i)); do
 
 for letter in {A..Z} ; do
   echo $letter
