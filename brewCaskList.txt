@@ -1,0 +1,11 @@
+docker
+gpg-suite
+keepingyouawake
+launchcontrol
+onyx
+soundflower
+soundflowerbed
+spotify
+vlc
+vmware-fusion
+vyprvpn

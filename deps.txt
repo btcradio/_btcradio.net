@@ -1,0 +1,347 @@
+berkeley-db
+└── openssl@1.1
+
+bundler-completion
+
+coreutils
+
+dbus
+
+dbus-glib
+├── dbus
+├── gettext
+├── libffi
+├── pcre
+├── gdbm
+├── openssl@1.1
+├── readline
+├── sqlite
+│   └── readline
+├── xz
+├── python
+│   ├── gdbm
+│   ├── openssl@1.1
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+└── glib
+    ├── gettext
+    ├── libffi
+    ├── pcre
+    ├── gdbm
+    ├── openssl@1.1
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    ├── xz
+    └── python
+        ├── gdbm
+        ├── openssl@1.1
+        ├── readline
+        ├── sqlite
+        │   └── readline
+        └── xz
+
+ecasound
+├── openssl@1.1
+├── berkeley-db
+│   └── openssl@1.1
+├── libogg
+├── flac
+│   └── libogg
+├── libvorbis
+│   └── libogg
+├── libsndfile
+│   ├── libogg
+│   ├── flac
+│   │   └── libogg
+│   └── libvorbis
+│       └── libogg
+├── libsamplerate
+│   ├── libogg
+│   ├── flac
+│   │   └── libogg
+│   ├── libvorbis
+│   │   └── libogg
+│   └── libsndfile
+│       ├── libogg
+│       ├── flac
+│       │   └── libogg
+│       └── libvorbis
+│           └── libogg
+└── jack
+    ├── openssl@1.1
+    ├── berkeley-db
+    │   └── openssl@1.1
+    ├── libogg
+    ├── flac
+    │   └── libogg
+    ├── libvorbis
+    │   └── libogg
+    ├── libsndfile
+    │   ├── libogg
+    │   ├── flac
+    │   │   └── libogg
+    │   └── libvorbis
+    │       └── libogg
+    └── libsamplerate
+        ├── libogg
+        ├── flac
+        │   └── libogg
+        ├── libvorbis
+        │   └── libogg
+        └── libsndfile
+            ├── libogg
+            ├── flac
+            │   └── libogg
+            └── libvorbis
+                └── libogg
+
+flac
+└── libogg
+
+gdbm
+
+gdk-pixbuf
+├── gettext
+├── libffi
+├── pcre
+├── gdbm
+├── openssl@1.1
+├── readline
+├── sqlite
+│   └── readline
+├── xz
+├── python
+│   ├── gdbm
+│   ├── openssl@1.1
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   ├── pcre
+│   ├── gdbm
+│   ├── openssl@1.1
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── xz
+│   └── python
+│       ├── gdbm
+│       ├── openssl@1.1
+│       ├── readline
+│       ├── sqlite
+│       │   └── readline
+│       └── xz
+├── jpeg
+├── libpng
+└── libtiff
+    └── jpeg
+
+gettext
+
+glib
+├── gettext
+├── libffi
+├── pcre
+├── gdbm
+├── openssl@1.1
+├── readline
+├── sqlite
+│   └── readline
+├── xz
+└── python
+    ├── gdbm
+    ├── openssl@1.1
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+icu4c
+
+id3lib
+
+id3v2
+└── id3lib
+
+jack
+├── openssl@1.1
+├── berkeley-db
+│   └── openssl@1.1
+├── libogg
+├── flac
+│   └── libogg
+├── libvorbis
+│   └── libogg
+├── libsndfile
+│   ├── libogg
+│   ├── flac
+│   │   └── libogg
+│   └── libvorbis
+│       └── libogg
+└── libsamplerate
+    ├── libogg
+    ├── flac
+    │   └── libogg
+    ├── libvorbis
+    │   └── libogg
+    └── libsndfile
+        ├── libogg
+        ├── flac
+        │   └── libogg
+        └── libvorbis
+            └── libogg
+
+jpeg
+
+lame
+
+libffi
+
+libnotify
+├── gettext
+├── libffi
+├── pcre
+├── gdbm
+├── openssl@1.1
+├── readline
+├── sqlite
+│   └── readline
+├── xz
+├── python
+│   ├── gdbm
+│   ├── openssl@1.1
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   ├── pcre
+│   ├── gdbm
+│   ├── openssl@1.1
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   ├── xz
+│   └── python
+│       ├── gdbm
+│       ├── openssl@1.1
+│       ├── readline
+│       ├── sqlite
+│       │   └── readline
+│       └── xz
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+└── gdk-pixbuf
+    ├── gettext
+    ├── libffi
+    ├── pcre
+    ├── gdbm
+    ├── openssl@1.1
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    ├── xz
+    ├── python
+    │   ├── gdbm
+    │   ├── openssl@1.1
+    │   ├── readline
+    │   ├── sqlite
+    │   │   └── readline
+    │   └── xz
+    ├── glib
+    │   ├── gettext
+    │   ├── libffi
+    │   ├── pcre
+    │   ├── gdbm
+    │   ├── openssl@1.1
+    │   ├── readline
+    │   ├── sqlite
+    │   │   └── readline
+    │   ├── xz
+    │   └── python
+    │       ├── gdbm
+    │       ├── openssl@1.1
+    │       ├── readline
+    │       ├── sqlite
+    │       │   └── readline
+    │       └── xz
+    ├── jpeg
+    ├── libpng
+    └── libtiff
+        └── jpeg
+
+libogg
+
+libpng
+
+libsamplerate
+├── libogg
+├── flac
+│   └── libogg
+├── libvorbis
+│   └── libogg
+└── libsndfile
+    ├── libogg
+    ├── flac
+    │   └── libogg
+    └── libvorbis
+        └── libogg
+
+libsndfile
+├── libogg
+├── flac
+│   └── libogg
+└── libvorbis
+    └── libogg
+
+libssh2
+└── openssl@1.1
+
+libtiff
+└── jpeg
+
+libvorbis
+└── libogg
+
+node
+└── icu4c
+
+openssl@1.1
+
+pcre
+
+pkg-config
+
+python
+├── gdbm
+├── openssl@1.1
+├── readline
+├── sqlite
+│   └── readline
+└── xz
+
+readline
+
+rust
+├── openssl@1.1
+├── libssh2
+│   └── openssl@1.1
+└── pkg-config
+
+sqlite
+└── readline
+
+syncthing-inotify
+
+xz
+

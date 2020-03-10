@@ -9,6 +9,11 @@ setup() {
         brew upgrade
 
         #install brew libs
+	brew install python
+	brew install libnotify
+	brew install syncthing-inotify
+	brew install dbus
+	brew install dbus-python
 	brew cask install spotify
 	brew cask install dbus pkg-config portaudio
 	brew cask install LaunchControl
@@ -37,9 +42,11 @@ setup
 
 git clone https://github.com/btcradio/smd.git
 cd smd
-pip3 install -r requirements.txt
+sudo -H pip3 install -r requirements.txt
 pip3 install PyQtWebEngine
 pip3 install pywebview[qt]
+chmod +x main.py
+./main.py
 cd ..
 
 

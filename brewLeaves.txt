@@ -1,0 +1,10 @@
+bundler-completion
+coreutils
+dbus-glib
+ecasound
+id3v2
+lame
+libnotify
+node
+rust
+syncthing-inotify
