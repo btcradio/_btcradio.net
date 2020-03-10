@@ -9,15 +9,19 @@ setup() {
         brew upgrade
 
         #install brew libs
+	brew cask install spotify
         brew install id3v2
+	brew install lame
         brew install node
-        brew install bundle
+        #brew install bundle
+	brew install bundler-completion
+
         brew install coreutils #gshuf
         #  PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
         brew cask install docker
-        brew link --overwrite docker
-        ls -l /usr/local/bin/docker*
-        open /Applications/Docker.app
+        #brew link --overwrite docker
+        #ls -l /usr/local/bin/docker*
+        #open /Applications/Docker.app
 
     else
 
